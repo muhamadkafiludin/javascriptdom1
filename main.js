@@ -2,20 +2,20 @@ document.title = 'kafil'
 console.log(document.body)
 //append
 const body = document.body
-body.append('HELLO WORLD')
+// body.append('HELLO WORLD')
 
-const h1 = document.createElement('h1')
-h1.textContent = 'INI H1 BRO'
+// const h1 = document.createElement('h1')
+// h1.textContent = 'INI H1 BRO'
 
-const namaSaya = document.createElement('p')
-namaSaya.innerHTML ="<marquee>KAFIL</marquee>"
+// const namaSaya = document.createElement('p')
+// namaSaya.innerHTML ="<marquee>KAFIL</marquee>"
 
-const namaKamu = document.createElement('b')
-namaKamu.innerText = 'MUHAMAMMAD>'
+// const namaKamu = document.createElement('b')
+// namaKamu.innerText = 'MUHAMAMMAD>'
 
-body.append(h1)
-body.append(namaSaya)
-body.append(namaKamu)
+// body.append(h1)
+// body.append(namaSaya)
+// body.append(namaKamu)
 //endappend
 
 const btn1 = document.getElementById('btn1')
