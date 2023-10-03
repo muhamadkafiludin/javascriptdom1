@@ -27,13 +27,7 @@ btn1.textContent = defaultText
 console.log(btn1)
 console.log(btn2)
 
-btn1.style.border = 'none'
-btn1.style.padding = '8px'
-btn1.style.fontSize = '30px'
-btn1.style.background = 'blue'
-
 function clikButton() {
-    btn1.style.background = 'aqua'
     const newText = document.createElement('p')
     newText.textContent = 'HALLO BUNG'
     body.append(newText)
@@ -45,4 +39,10 @@ function ubahText() {
 
 function oriText() {
     btn1.textContent = defaultText
+}
+
+function clikButton1() {
+    const newText = document.createElement('p')
+    newText.textContent = 'kafill'
+    body.append(newText)
 }
